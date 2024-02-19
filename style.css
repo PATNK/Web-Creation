@@ -1,0 +1,225 @@
+body{
+    background: linear-gradient(to right, #141a35, #0b1024);
+}
+
+.nav-btn{
+    background: linear-gradient(to right, #1a7fd1, #3b0a9c);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-item .nav-link{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.nav-item .nav-link:hover,
+.nav-item .nav-link.actives
+{
+    color: #1a7fd1;
+}
+
+#about h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 4em;
+    line-height: 1;
+}
+.blue-theme{
+    color: #1a7fd1;
+}
+.ash{
+    color: #c0c0c0;
+    font-size: 2.5em;
+    line-height: 1;
+    font-weight: bold;
+}
+#about p{
+    color: #c0c0c01a;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12rem;
+    position: absolute;
+    top: 120px;
+    z-index: -3;
+    transform: rotate(-20deg);
+
+}
+
+.nav-btn-outline{
+    border: 2px solid #1a7fd1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+#aboutme h2{
+    color: white;
+}
+#aboutme p{
+    color: white;
+}
+.img-box{
+    border: 10px solid #1a7fd1;
+    
+}
+.img-box img{
+    position: relative;
+    top:-30px;
+    left:-30px;
+}
+
+.img-box2 img{
+    position: relative;
+    top:-30px;
+    left:30px;
+}
+.img-box2{
+    border: 10px solid #1a7fd1;
+}
+
+#project h2{
+    color: white;
+}
+#project h3{
+    color: #1a7fd1;
+}
+
+#project p{
+    color: white;
+}
+.last a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.card{
+    background-color: #141a35;
+    color: white;
+    border: 7px solid #1a7fd1;
+    box-shadow:10px 10px 15px #58156991,
+    -5px -5px 15px #5a9ace5e;    
+}
+
+span.fa{
+    background-color:white;
+    padding: 20px;
+    color: #141a35;
+    border-radius: 50%;
+}
+
+.exp-img1{
+    background:url(./2560px-Amazon_Web_Services_Logo.svg.png);
+    min-height: 90px;
+    width:70%;
+    background-size: contain;
+    background-position: center;
+}
+.exp-img2{
+    background:url(png-transparent-cascading-style-sheets-css3-javascript-logo-world-wide-web-blue-angle-text-thumbnail.png);
+    min-height: 100px;
+    width: 40%;
+    background-size: contain;
+}
+.exp-img3{
+    background:url(8057863.png);
+    min-height: 100px;
+    width: 40%;
+    background-size: contain;
+}
+.exp-img4{
+    background:url(html5.webp);
+    min-height: 100px;
+    width: 40%;
+    background-size: contain;
+}
+.exp-img5{
+    background:url(58480979cef1014c0b5e4901.png);
+    min-height: 100px;
+    width: 30%;
+    background-size: contain;
+}
+.exp-img6{
+    background:url(JavaScript-logo.png);
+    min-height: 100px;
+    width: 40%;
+    background-size: contain;
+}
+.exp-img7{
+    background:url(png-transparent-js-logo-node-logos-and-brands-icon.png);
+    min-height: 100px;
+    width: 40%;
+    background-size: contain;
+}
+.exp-img8{
+    background:url(python-5-logo-png-transparent.png);
+    min-height: 100px;
+    width: 40%;
+    background-size: contain;
+}
+
+#contact{
+    background: linear-gradient(to right, #1d2650,#1a7fd1);
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+.contactbox{
+    background: linear-gradient(to right, #1a7fd1,#1d2650); 
+    border-radius: 10px;
+}
+#contact input{
+    background-color: #141a35;
+    border: none;
+    color: #CCCC;
+    border-radius: 5px;
+}
+#contact textarea{
+    background-color: #141a35;
+    border: none;
+    color: #CCCC;
+}
+#contact input::placeholder{
+    color: #CCC;
+}
+#contact h2{
+    font-size: 1.2em;
+    color: white;
+}
+#contact h5{
+    font-size: 1em;
+    color: white;
+}
+#contact p{
+    font-size: 10pt;
+    color: #CCC;
+}
+#contact ul{
+    color: white;
+    list-style-type: none;
+    display: inline;
+}
+#contact i{
+ background:  linear-gradient(to right, #1a7fd1,#1d2650);  
+ padding:15px 20px;
+ border-radius: 10px;
+}
+#contact ul li{
+    padding: 10px 0px;
+}
+#contact hr{
+    border: .5px solid white;
+}
+
+@media screen and (max-width:600px) {
+    #about p{
+   display: none;
+
+}
+
+}
